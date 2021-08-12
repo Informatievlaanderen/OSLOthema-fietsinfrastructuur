@@ -1,0 +1,18 @@
+[
+{
+  "name": "fietsinfrastructuur-ap",
+  "type": "ap",
+  "eap": "OSLO-Fietsinfrastructuur_v0.02.eap",
+  "diagram": "OSLO-Fietsinfrastructuur",
+  "template": "fietsinfrastructuur-ap.j2",
+  "title": "Mijn Applicatieprofiel",
+  "publication-state": "https://data.vlaanderen.be/id/concept/StandaardStatus/OntwerpStandaard",
+  "publication-date": "2021-08-12",
+  "license": "https://data.vlaanderen.be/id/licentie/modellicentie-gratis-hergebruik/v1.0",
+  "contributors-file": "stakeholders.csv",
+  "contributors-column": "MijnKolom",
+  "site": "site-skeleton/fietsinfrastructuur-ap",
+  "feedbackurl": "https://github.com/Informatievlaanderen/OSLOthema-fietsinfrastructuur/issues",
+  "standaardregisterurl": "https://data.vlaanderen.be/standaarden/standaard-in-ontwikkeling/vocabularium-en-applicatieprofiel-fietsinfrastructuur.html"
+}
+]
