@@ -1,7 +1,45 @@
 {% extends "ap2.j2" %}
 
 {% block summary %}
-<p>Vul hier een samenvatting van mijn applicatieprofiel in.</p>
+<p>Het applicatieprofiel OSLO Fietsinfrastructuur legt uit hoe de terminologie in dit domein gebruikt moet worden om gegevens uit te wisselen relevant tot de fietsinfrastructuur.</p>
+<p>Het applicatieprofiel is opgebouwd uit drie delen:
+<ul>
+<li>De (fysieke) infrastructuur,
+<li>het (logische) netwerk, en
+<li>de kenmerken.
+</ul>
+</p>
+<p>Zo wordt er in de eerste plaats verwezen naar de fysische invulling van de infrastructuur door gebruik te maken van de standaard
+<a href="https://data.vlaanderen.be/ns/openbaardomein/infrastructuur">OSLO Openbaar Domein</a>, waarbij men onder andere het concept
+Infrastructuurelement heeft overgenomen. Voor dit applicatieprofiel is er dan meer specifiek een Fietsinfrastructuurobject object gemaakt, om die infrastructuurelementen eveneens te klasseren volgens fietsinfrastructuur. Infrastructuurlementen kunnen gelinkt zijn aan de Fietsnetwerkelementen, wat het logische gedeelte is van het model. 
+</p>
+<p>
+De Fietsnetwerkelementen zijn de bouwstenen van het applicatieprofiel en kunnen knopen,segmenten, sequenties, etc. zijn, 
+die samen een Fietsnetwerk vormen. Het netwerk-gedeelte van het applicatieprofiel is gebaseerd op INSPIRE 
+(<a href="https://inspire.ec.europa.eu/id/document/tg/tn">Inspire Transport Networks</a>) en bouwt verder op 
+<a href="https://data.vlaanderen.be/ns/netwerk">OSLO-Netwerk</a> en 
+<a href="https://data.vlaanderen.be/ns/transportnetwerk">OSLO-Transport</a>. De fietsnetwerkelementen omvatten de 
+logische presentatie van alle fietsvoorzieningen zoals de wegen, fietspaden, jaagpaden, fietssuggestiestroken, etc. 
+waarover de fietser kan fietsen.
+</p>
+<p>
+Verder spreekt men over de eigenschappen die aanwezig zijn of van toepassing zijn op het netwerk, 
+zoals de breedte van het fietspad, de wegverlichting, in welke richting men mag fietsen. 
+Dit wordt in het model opgenomen als een Transporteigenschap. 
+Onder de algemene Transporteigenschappen verstaan we eigenschappen die van toepassing kunnen zijn op 
+meerdere transportnetwerken (bv wegverlichting is niet alleen van toepassing op een fiets maar ook op auto’s). 
+Verder definiëren we meer specifiek Fietsnetwerkeigenschappen, waarbij men wilt aangeven dat het hier 
+specifiek over de uitwisseling van informatie gaat gelinkt aan de fiets, bv de Fietsbreedte, 
+RichtingFietsverkeer en Fietsverharding.
+</p>
+<p>
+De relatie tussen een Fietsnetwerkelement en een Transporteigenschap wordt gemaakt aangezien een Fietsnetwerkelement 
+overerft van een transportobject, waaraan een transporteigenschap kan gelinkt worden. De link is niet expliciet aanwezig 
+in het model maar hiervoor wordt er verwezen naar Inspire. 
+</p>
+<p>
+Om aan te geven dat een Transporteigenschap slechts op een beperkt gedeelte van een 
+Fietsnetwerkelement geldig is, wordt er gebruik gemaakt van lineaire referentie. 
 {% endblock %}
 
 {% block status %}
