@@ -1,25 +1,27 @@
 [
-{
-  "name": "fietsinfrastructuur-ap",
-  "type": "ap",
-  "eap": "OSLO-Fietsinfrastructuur-AP.eap",
-  "diagram": "OSLO-Fietsinfrastructuur",
-  "template": "fietsinfrastructuur-ap.j2",
-  "title": "OSLO Fietsinfrastructuur",
-  "publication-state": "https://data.vlaanderen.be/id/concept/StandaardStatus/OntwerpStandaard",
-  "publication-date": "2023-12-01",
-  "license": "https://data.vlaanderen.be/id/licentie/modellicentie-gratis-hergebruik/v1.0",
-  "contributors-file": "stakeholders.csv",
-  "contributors-column": "MijnKolom",
-  "site": "site-skeleton/fietsinfrastructuur-ap",
-  "feedbackurl": "https://github.com/Informatievlaanderen/OSLOthema-fietsinfrastructuur/issues",
-  "standaardregisterurl": "https://data.vlaanderen.be/standaarden/standaard-in-ontwikkeling/vocabularium-en-applicatieprofiel-fietsinfrastructuur.html",
-  "translation": [    {
-      "language":"nl",
-      "template":"fietsinfrastructuur-ap.j2",
-      "title": "OSLO Fietsinfrastructuur",
-      "translationjson":"fietsinfrastructuur-ap_nl.json",
-      "mergefile":"fietsinfrastructuur-ap_nl_merged.jsonld"
-    }]
-}
+	{
+		"name": "fietsinfrastructuur-ap",
+		"type": "ap",
+		"eap": "OSLO-Fietsinfrastructuur-AP.eap",
+		"diagram": "OSLO-Fietsinfrastructuur",
+		"template": "fietsinfrastructuur-ap.j2",
+		"title": "OSLO Fietsinfrastructuur",
+		"publication-state": "https://data.vlaanderen.be/id/concept/StandaardStatus/OntwerpStandaard",
+		"publication-date": "2023-12-01",
+		"license": "https://data.vlaanderen.be/id/licentie/modellicentie-gratis-hergebruik/v1.0",
+		"contributors-file": "stakeholders.csv",
+		"contributors-column": "MijnKolom",
+		"site": "site-skeleton/fietsinfrastructuur-ap",
+		"feedbackurl": "https://github.com/Informatievlaanderen/OSLOthema-fietsinfrastructuur/issues",
+		"standaardregisterurl": "https://data.vlaanderen.be/standaarden/standaard-in-ontwikkeling/vocabularium-en-applicatieprofiel-fietsinfrastructuur.html",
+		"translation": [
+			{
+				"language": "nl",
+				"template": "fietsinfrastructuur-ap.j2",
+				"title": "OSLO Fietsinfrastructuur",
+				"translationjson": "fietsinfrastructuur-ap_nl.json",
+				"mergefile": "fietsinfrastructuur-ap_nl_merged.jsonld"
+			}
+		]
+	}
 ]
