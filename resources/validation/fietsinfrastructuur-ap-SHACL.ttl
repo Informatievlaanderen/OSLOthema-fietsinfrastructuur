@@ -8,6 +8,7 @@
 @prefix shacl: <http://www.w3.org/ns/shacl#> .
 @prefix skos: <http://www.w3.org/2004/02/skos/core#> .
 @prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
 
 <> owl:imports <https://raw.githubusercontent.com/Informatievlaanderen/data.vlaanderen.be-generated/production/doc/vocabularium/fietsinfrastructuur/ontwerpstandaard/2021-12-17/voc/fietsinfrastructuur-voc.ttl> .
 
