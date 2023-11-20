@@ -18,7 +18,7 @@
 			{
 				"language": "nl",
 				"template": "fietsinfrastructuur-ap.j2",
-				"title": "OSLO Fietsinfrastructuur",
+				"title": "OSLO Fietsinfrastructuur (Applicatieprofiel)",
 				"translationjson": "fietsinfrastructuur-ap_nl.json",
 				"mergefile": "fietsinfrastructuur-ap_nl_merged.jsonld"
 			}
