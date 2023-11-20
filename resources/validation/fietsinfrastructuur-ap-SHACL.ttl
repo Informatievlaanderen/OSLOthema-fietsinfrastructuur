@@ -9,6 +9,8 @@
 @prefix skos: <http://www.w3.org/2004/02/skos/core#> .
 @prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
 
+<> owl:imports <https://raw.githubusercontent.com/Informatievlaanderen/data.vlaanderen.be-generated/production/doc/vocabularium/fietsinfrastructuur/ontwerpstandaard/2021-12-17/voc/fietsinfrastructuur-voc.ttl> .
+
 <https://data.vlaanderen.be/doc/applicatieprofiel/fietsinfrastructuur/ontwerpstandaard/2021-12-17> <https://data.vlaanderen.be/doc/applicatieprofiel/fietsinfrastructuur/ontwerpstandaard/2021-12-17shapes> <https://data.vlaanderen.be/doc/applicatieprofiel/fietsinfrastructuur/ontwerpstandaard/2021-12-17#BruikbareFietsbreedteShape>,
     <https://data.vlaanderen.be/doc/applicatieprofiel/fietsinfrastructuur/ontwerpstandaard/2021-12-17#FietsWinterdienstShape>,
     <https://data.vlaanderen.be/doc/applicatieprofiel/fietsinfrastructuur/ontwerpstandaard/2021-12-17#FietsbreedteShape>,
