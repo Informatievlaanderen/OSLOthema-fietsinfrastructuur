@@ -11,7 +11,7 @@
 @prefix owl: <http://www.w3.org/2002/07/owl#> .
 
 <> owl:imports <https://raw.githubusercontent.com/Informatievlaanderen/OSLOthema-fietsinfrastructuur/master/resources/validation/fietsinfrastructuur-voc.ttl> .
-<> owl:imports <https://data.vlaanderen.be/ns/netwerk/> .
+<> owl:imports <https://data.vlaanderen.be/ns/netwerk.ttl> .
 
 <https://data.vlaanderen.be/doc/applicatieprofiel/fietsinfrastructuur/ontwerpstandaard/2021-12-17> <https://data.vlaanderen.be/doc/applicatieprofiel/fietsinfrastructuur/ontwerpstandaard/2021-12-17shapes> <https://data.vlaanderen.be/doc/applicatieprofiel/fietsinfrastructuur/ontwerpstandaard/2021-12-17#BruikbareFietsbreedteShape>,
     <https://data.vlaanderen.be/doc/applicatieprofiel/fietsinfrastructuur/ontwerpstandaard/2021-12-17#FietsWinterdienstShape>,
