@@ -10,7 +10,7 @@
 @prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
 @prefix owl: <http://www.w3.org/2002/07/owl#> .
 
-<> owl:imports <https://data.vlaanderen.be/ns/fiets.ttl> .
+<> owl:imports <https://raw.githubusercontent.com/Informatievlaanderen/data.vlaanderen.be-generated/production/ns/fiets/voc/fietsinfrastructuur-voc.ttl> .
 
 <https://data.vlaanderen.be/doc/applicatieprofiel/fietsinfrastructuur/ontwerpstandaard/2021-12-17> <https://data.vlaanderen.be/doc/applicatieprofiel/fietsinfrastructuur/ontwerpstandaard/2021-12-17shapes> <https://data.vlaanderen.be/doc/applicatieprofiel/fietsinfrastructuur/ontwerpstandaard/2021-12-17#BruikbareFietsbreedteShape>,
     <https://data.vlaanderen.be/doc/applicatieprofiel/fietsinfrastructuur/ontwerpstandaard/2021-12-17#FietsWinterdienstShape>,
