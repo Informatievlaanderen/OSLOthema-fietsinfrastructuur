@@ -1,14 +1,24 @@
 {
-  "naam": "Vocabularium en applicatieprofiel Fietsinfrastructuur",
+  "naam": "Applicatieprofiel Fietsinfrastructuur",
   "rapport": "",
   "verantwoordelijke_organisatie": "Agentschap Digitaal Vlaanderen",
   "identificator_organisatie": "http://data.vlaanderen.be/id/organisatie/OVO002949",
-  "publicatiedatum": "TBD",
-  "type_toepassing": "TBD",
-  "categorie": "Vocabularium en applicatieprofielen",
+  "publicatiedatum": "17 december 2021",
+  "type_toepassing": "Aanbevolgen (vrijwillig)",
+  "categorie": "Applicatieprofiel",
   "beschrijving": "fietsinfrastructuur.md",
-  "specificatiedocument": [],
-  "documentatie": [],
+  "specificatiedocument": [
+    {
+      "naam": "Applicatieprofiel Fietsinfrastructuur",
+      "waarde": "https://data.vlaanderen.be/doc/applicatieprofiel/fietsinfrastructuur"
+    }
+  ],
+  "documentatie": [
+    {
+      "naam": "Vocabularium Fietsinfrastructuur",
+      "waarde": "https://data.vlaanderen.be/ns/fiets"
+    }
+  ],
   "charter": [
   ],
   "verslagen": [
