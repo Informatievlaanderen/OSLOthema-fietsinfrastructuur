@@ -1,4 +1,35 @@
-Voornaam;Naam;Affiliatie;E-mail;Website;MijnKolom;
-AuteurVoornaam;AuteurNaam;AuteurAffiliatie;auteurvoornaam.auteurnaam@auteurdomein;https://auteurwebsiteurl;A;
-EditorVoornaam;EditorNaam;EditorAffiliatie;editorvoornaam.editornaam@editordomein;https://editorwebsiteurl;E;
-MedewerkerVoornaam;MedewerkerNaam;MedewerkerAffiliatie;medewerkervoornaam.medewerkernaam@medewerkerdomein;https://medewerkerwebsiteurl;C;
+Voornaam;Naam;Affiliatie;E-mail;Website;MijnKolom
+Ziggy;Vanlishout;Digitaal Vlaanderen;ziggy.vanlishout@vlaanderen.be;https://data.vlaanderen.be/id/organisatie/OVO002949;E
+Raf;Buyle;Digitaal Vlaanderen;raf.buyle@vlaanderen.be;https://data.vlaanderen.be/id/organisatie/OVO002949;E
+Veerle;Beyaert;Digitaal Vlaanderen;veerle.beyaert@vlaanderen.be;https://data.vlaanderen.be/id/organisatie/OVO002949;E
+Eveline;Vlassenroot;Digitaal Vlaanderen;eveline.vlassenroot@vlaanderen.be;https://data.vlaanderen.be/id/organisatie/OVO002949;E
+Liesbeth;Van der Haegen;Digitaal Vlaanderen;liesbeth.vanderhaegen@vlaanderen.be;https://data.vlaanderen.be/id/organisatie/OVO002949;E
+Laurens;Vercauteren;Digitaal Vlaanderen;laurens.vercauteren@vlaanderen.be;https://data.vlaanderen.be/id/organisatie/OVO002949;E
+Geert;Thijs;Digitaal Vlaanderen;geert.thijs@vlaanderen.be;https://data.vlaanderen.be/id/organisatie/OVO002949;E
+Maxim;Pittomvils;Digitaal Vlaanderen;;https://data.vlaanderen.be/id/organisatie/OVO002949;E
+Kevin;Haleydt;Digitaal Vlaanderen;;https://data.vlaanderen.be/id/organisatie/OVO002949;E
+Bart;Rosseau;Digitaal Vlaanderen;bart.rosseau@vlaanderen.be;https://data.vlaanderen.be/id/organisatie/OVO002949;A
+Frederik;Van den Houdt;Digitaal Vlaanderen;;https://data.vlaanderen.be/id/organisatie/OVO002949;A
+Inge;Caers;Fietsberaad Vlaanderen;;https://fietsberaad.be/;C
+Wout;Baert;Fietsberaad Vlaanderen;;https://fietsberaad.be/;C
+Pieter;Morlion;Fietsberaad Vlaanderen;;https://fietsberaad.be/;C
+Esther;Thys;Provincie Limburg;;https://www.limburg.be/;C
+Bart;De Proost;Departement Mobiliteit en Openbare Werken;;https://www.vlaanderen.be/departement-mobiliteit-en-openbare-werken;C
+Joshua;De Clercq;Departement Mobiliteit en Openbare Werken;;https://www.vlaanderen.be/departement-mobiliteit-en-openbare-werken;C
+Mieke;Declercq;Departement Mobiliteit en Openbare Werken;;https://www.vlaanderen.be/departement-mobiliteit-en-openbare-werken;C
+Werner;Lievens;Fietsersbond;;https://www.fietsersbond.be/;C
+Steven;Soetens;Provincie Antwerpen;;https://www.provincieantwerpen.be/;C
+Hanne;Van Dyck;Provincie Antwerpen;;https://www.provincieantwerpen.be/;C
+Geert;Van Gaever;Agentschap Wegen en Verkeer;;https://wegenenverkeer.be/;C
+Joachim;Dero;Agentschap Wegen en Verkeer;;https://wegenenverkeer.be/;C
+Simon;Baert;Agentschap Wegen en Verkeer;;https://wegenenverkeer.be/;C
+Marie-Anne;Godderis;De Vlaamse Waterweg;;https://www.vlaamsewaterweg.be/;C
+Ellen;Vanesch;De Vlaamse Waterweg;;https://www.vlaamsewaterweg.be/;C
+Jelle;Vercauteren;De Werkvennootschap;;https://dewerkvennootschap.vlaanderen/;C
+An ;Volckaert;Opzoekingscentrum voor de Wegenbouw;;https://brrc.be/en;C
+Tim;Massart;Opzoekingscentrum voor de Wegenbouw;;https://brrc.be/en;C
+Carl;Van Geem;Opzoekingscentrum voor de Wegenbouw;;https://brrc.be/en;C
+Lies;De Meulenaer;Digitaal Vlaanderen;;https://data.vlaanderen.be/id/organisatie/OVO002949;C
+Seppe;Santens;Westtoer;;https://www.westtoer.be/;C
+Steven;Verstockt;IDLab Ugent;;https://www.ugent.be/ea/idlab/en;C
+Marc;Brouckaert;VIAS;;https://www.vias.be/;C

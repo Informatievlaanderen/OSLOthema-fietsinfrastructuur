@@ -2,7 +2,7 @@
 	{
 		"name": "fietsinfrastructuur-ap",
 		"type": "ap",
-		"eap": "OSLO-Fietsinfrastructuur-AP.eap",
+		"eap": "OSLO-Fietsinfrastructuur-VOC-AP.eap",
 		"diagram": "OSLO-Fietsinfrastructuur",
 		"template": "fietsinfrastructuur-ap.j2",
 		"title": "OSLO Fietsinfrastructuur (Applicatieprofiel)",

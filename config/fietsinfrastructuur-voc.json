@@ -2,7 +2,7 @@
 {
   "name": "fietsinfrastructuur-voc",
   "type": "voc",
-  "eap": "OSLO-Fietsinfrastructuur-AP.eap",
+  "eap": "OSLO-Fietsinfrastructuur-VOC-AP.eap",
   "diagram": "OSLO-Fietsinfrastructuur",
   "template": "fietsinfrastructuur-voc.j2",
   "title": "OSLO Fietsinfrastructuur (Vocabularium)",
