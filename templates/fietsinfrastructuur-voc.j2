@@ -1,13 +1,13 @@
 {% extends "voc2.j2" %}
 
 {% block summary %}
-<p>Het vocabularium "OSLO-Fietsinfrastructuur" definieert de termen die van toepassing zijn voor om informatie te delen 
-omtrent de infrastructuur relevant voor de fietser, het netwerk dat de fietser gebruikt om zich over te verplaatsen
- en de eigenschappen die het netwerk beschrijven.</p>
-<p>Bij de infrastructuur spreekt men over objecten die zich op het openbaar domein begeven, zoals de fietstelpalen, de verkeersborden en
-fietsparkingen. </p>
-<p>Het netwerk stelt de logische kant die alle fietsvoorzieningen (fietspaden, fietswegen, fietsstraten) voorstelt als een
-aaneenschakeling van knopen, segmenten, sequenties en sets. </p>
-<p>Bij de eigenschappen gaat het over begrippen die het fietsnetwerk beschrijven, zoals de breedte, de inrichting en de 
-richting van het verkeer. </p>
+<p>Het vocabularium OSLO-Fietsinfrastructuur specialiseert bestaande terminologie of vult deze aan om materiële en immateriële aspecten van fietsinfrastructuur te beschrijven.</p>
+<p>Infrastructuurelementen uit OSLO-Openbaar domein die betrekking hebben op fietsinfrastructuur worden bijkomend getypeerd als Fietsinfrastructuurobject zodat ze in die context kunnen worden gebruikt.</p>
+<p>Begrippen om andere materiële objecten mbt fietsinfrastructuur te beschrijven zijn niet voorzien, ook niet voor de wegbaan: die wordt vertegenwoordigd door overeenstemmende objecten die het logisch fietsnetwerk voorstellen, de zgn Fietsnetwerkelementen.</p>
+<p>Begrippen uit het vocabularium OSLO-Transportnetwerk worden daartoe verder gespecialiseerd als Fietnetwerkelement: Fietsknoop als subklasse van transportknoop, Fietssegment als subklasse van Transportlink, Fietslinksequentie als subklasse van Transportlinksequentie en Fietslinkset als subklasse van Transportlinkset.</p>
+<p>Er werd opzettelijk gekozen om elementen uit OSLO-Transportnetwerk en niet uit OSLO-Wegennetwerk (of INSPIRE Road Network) te specialiseren omdat de insteek geen transportmedium (weg, spoor, water, lucht) maar een transportmiddel is (nl de fiets). Een fietstraject loopt grotendeels over de weg, maar kan ook ferry’s of spoorverbindingen bevatten.</p>
+<p>De attributen en associaties van de superklassen uit OSLO-Transportnetwerk werden aangevuld om bvb het Fietsnetwerkelement te koppelen aan een bestaand Transportobject, bvb een Wegsegment uit een wegenregister.</p>
+<p>Om eigenschappen aan Fietsnetwerkelementen te kunnen koppelen voorzien we in de eerste plaats generieke subklassen van Transporteigenschap uit OSLO-Transportnetwerk. Deze zijn generiek omdat ze potentieel ook voor andere transportmiddelen gelden, bvb Wegverlichting, Luchtkwaliteit, Verkeerstype edm. Ze vormen een aanvulling op klassen uit OSLO-Weg zoals ToegestaneSnelheid.</p>
+<p>Daarnaast voorziet dit vocabularium ook Fietsnetwerkeigenschappen die eigenschappen uitbeelden die enkel voor fieters relevant zijn, bvb Fietsinrichting (fietspad, fietssugestiestrook edm), Fietsverharding, Fietscomfort, Fietsverkeersteken etc. Sommige daarvan zijn specialisaties van Transporteigenschappen uit OSLO-Weg, zoals Wegverharding of Wegbreedte.</p>
+<p>Specifieke attribuering van de Transporteigenschappen laat toe om bvb naar Verkeerstekens te verwijzen die uitdrukking geven aan de Transporteigenschap, bvb het Verkeersteken dat een fietspad aangeeft. Of er zijn attributen gemaakt om aan te duiden in welk kader de waarde die een eigenschap aanneemt is bepaald, bvb voor Geluid of Luchtkwaliteit. Of voor het voertuigtype bij Verkeerstelling of Verkeersdeelname.</p>
 {% endblock %}
