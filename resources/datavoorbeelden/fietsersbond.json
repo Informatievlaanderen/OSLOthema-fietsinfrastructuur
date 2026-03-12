@@ -1,0 +1,170 @@
+{
+    "@context": [
+        "https://data.vlaanderen.be/doc/applicatieprofiel/fietsinfrastructuur/ontwerpstandaard/2021-12-17/context/fietsinfrastructuur-ap.jsonld",
+        {
+            "skos": "http://www.w3.org/2004/02/skos/core#",
+            "qudt-schema": "https://qudt.org/schema/qudt/",
+            "qudt-unit": "https://qudt.org/vocab/unit/",
+            "geosparql": "http://www.opengis.net/ont/geosparql#",
+            "Netwerkreferentie.transporteigenschap": {
+                "@reverse": "Transporteigenschap.netwerkreferentie"
+            },
+            "Fietsnetwerkelement.netwerkreferentie": {
+                "@reverse": "Netwerkreferentie.element"
+            }
+        }
+    ],
+    "@graph": [
+        {
+            "@id": "_:ntw001",
+            "@type": "Fietsnetwerk",
+            "Fietsnetwerk.geografischeNaam": {
+                "@value": "Fietsnelwegnetwerk",
+                "@language": "nl"
+            }
+        },
+        {
+            "@id": "_:ele001",
+            "@type": "Fietslinksequentie",
+            "Fietsnetwerkelement.fietsnetwerk": "_:ntw001",
+            "Fietsnetwerkelement.beheerder": {
+                "@type": "Organisatie",
+                "Organisatie.voorkeursnaam": {
+                    "@value": "Onbekend",
+                    "@language": "nl"
+                }
+            },
+            "Fietslinksequentie.identificator": {
+                "@type": "Identificator",
+                "Identificator.identificator": {
+                    "@type": "https://example.com/id/concept/identificatortype/fietssnelwegnummer",
+                    "@value": "F1_richting1"
+                }
+            },
+            "Fietslinksequentie.link": [
+                {
+                    "@type": "GerichteFietslink",
+                    "GerichteFietslink.richting": {
+                        "@type": "Teken",
+                        "@id": "https://example.com/id/concept/teken/plus"
+                    },
+                    "GerichteFietslink.link": "_:ele002"
+                }
+            ]
+        },
+        {
+            "@id": "_:ele002",
+            "@type": "Fietssegment",
+            "Fietsnetwerkelement.fietsnetwerk": "_:ntw001",
+            "Fietsnetwerkelement.beheerder": {
+                "@type": "Organisatie",
+                "Organisatie.voorkeursnaam": {
+                    "@value": "Onbekend",
+                    "@language": "nl"
+                }
+            },
+            "Fietssegment.identificator": {
+                "@type": "Identificator",
+                "Identificator.identificator": {
+                    "@type": "https://example.com/id/concept/identificatortype/fietsersbond-fietssegmentid",
+                    "@value": "S_20170812_101010_009"
+                }
+            },
+            "Fietnetwerkelement.beheerder": "",
+            "Fietssegment.geometriemiddenlijn": {
+                "@type": "LijnString",
+                "Geometrie.gml": {
+                    "@value": "<gml:Linestring srsName=\"http:\\//www.opengis.net/def/crs/EPSG/0/4326\"><gml:coordinates>51.46363,4.45619 51.46360,4.45603</gml:coordinates></gml:Linestring>",
+                    "@type": "geosparql:gmlliteral"
+                }
+            },
+            "Fietsnetwerkelement.netwerkreferentie": [
+                {
+                    "@id": "_:eig001",
+                    "@type": "Linkreferentie",
+                    "Netwerkreferentie.transporteigenschap": {
+                        "@type": "Fietsinrichting",
+                        "Fietsinrichting.type": {
+                            "@type": "Fietsinrichtingtype",
+                            "@@id": "https://example.com/id/concept/fietsinrichtingtype/fietssuggestiestrook"
+                        }
+                    },
+                    "Linkreferentie.toepassingsRichting": {
+                        "@type": "Linkrichtingtype",
+                        "@id": "https://example.com/id/concept/linkrichtingwaarde/beide"
+                    }
+                },
+                {
+                    "@id": "_:eig002",
+                    "@type": "Linkreferentie",
+                    "Netwerkreferentie.transporteigenschap": {
+                        "@type": "Richtingfietsverkeer",
+                        "Richtingfietsverkeer.richting": {
+                            "@type": "Linkrichtingtype",
+                            "@@id": "https://example.com/id/concept/richtingfietsverkeertype/gelijklopend"
+                        }
+                    },
+                    "Linkreferentie.toepassingsRichting": {
+                        "@type": "Linkrichtingtype",
+                        "@id": "https://example.com/id/concept/linkrichtingwaarde/gelijklopend"
+                    }
+                },
+                {
+                    "@id": "_:eig003",
+                    "@type": "Linkreferentie",
+                    "Netwerkreferentie.transporteigenschap": {
+                        "@type": "Richtingfietsverkeer",
+                        "Richtingfietsverkeer.richting": {
+                            "@type": "Linkrichtingtype",
+                            "@id": "https://example.com/id/concept/linkrichtingwaarde/tegengesteld"
+                        }
+                    },
+                    "Linkreferentie.toepassingsRichting": {
+                        "@type": "Linkrichtingtype",
+                        "@id": "https://example.com/id/concept/linkrichtingwaarde/tegengesteld"
+                    }
+                },
+                {
+                    "@id": "_:eig004",
+                    "@type": "Linkreferentie",
+                    "Netwerkreferentie.transporteigenschap": {
+                        "@type": "ToegestaneSnelheid",
+                        "ToegestaneSnelheid.snelheidslimiet": {
+                            "@type": "Snelheid",
+                            "KwantitatieveWaarde.waarde": {
+                                "@type": "Getal",
+                                "value": 50
+                            },
+                            "KwantitatieveWaarde.standaardEenheid": {
+                                "@type": [
+                                    "StandaardEenheid",
+                                    "qudt-schema:Unit"
+                                ],
+                                "@id": "qudt-unit:KiloM-PER-HR"
+                            }
+                        }
+                    },
+                    "Linkreferentie.toepassingsRichting": {
+                        "@type": "Linkrichtingtype",
+                        "@id": "https://example.com/id/concept/linkrichtingwaarde/beide"
+                    }
+                },
+                {
+                    "@id": "_:eig005",
+                    "@type": "Linkreferentie",
+                    "Netwerkreferentie.transporteigenschap": {
+                        "@type": "Wegverlichting",
+                        "Wegverlichting.type": {
+                            "@type": "Wegverlichtingtype",
+                            "@id": "https://example.com/id/concept/wegverlichtingttype/aanwezig"
+                        }
+                    },
+                    "Linkreferentie.toepassingsRichting": {
+                        "@type": "Linkrichtingtype",
+                        "@id": "https://example.com/id/concept/linkrichtingwaarde/beide"
+                    }
+                }
+            ]
+        }
+    ]
+}
